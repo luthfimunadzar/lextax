@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px 25px;
+    background-color: $sec;
+    .logo{
+        display: inline-block;
+        color: $pri;
+        font-size: 42px;
+        font-family: $b;
+        text-transform: lowercase;
+        margin: 0;
+    }
+    .apply{
+        float: right;
+        color: $pri;
+        margin-top: 8px;
+        font-size: 18px;
+        span{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 5px;
+            background-color: $pri;
+            transition: all 0.3s ease;
+            i{
+                color: $wt;
+                font-size: 15px;
+                transition: all 0.3s ease;
+            }
+        }
+        &:hover, &:focus{
+            text-decoration: none;
+            span{
+                background-color: $ter;
+                i{
+                    color: $pri;
+                }
+            }
+        }
+    }
+}

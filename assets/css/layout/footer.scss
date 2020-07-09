@@ -1,0 +1,33 @@
+footer{
+    padding: 30px 0;
+    background-color: $pri;
+    .logo{
+        font-family: $b;
+        color: $wt;
+        text-transform: lowercase;
+    }
+    p{
+        color: $wt;
+    }
+    h4{
+        color: $wt;
+        margin-bottom: 15px;
+    }
+    .socmed{
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        background-color: $sec;
+        color: $pri;
+        margin-right: 15px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        &:hover, &:focus{
+            text-decoration: none;
+            background-color: $ter;
+            color: $pri;
+        }
+    }
+}
