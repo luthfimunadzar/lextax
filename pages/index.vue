@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <h1 class="logo">LEXTAX</h1>
+      <img src="/logo-color.png" class="logo"/>
       <b-link href="#" class="apply"><span><i class="fa fa-pen"></i></span> Apply</b-link>
     </header>
 
@@ -22,7 +22,7 @@
       </b-container>
     </div>
 
-    <div class="feature">
+    <div class="feature" id="feature">
       <b-container>
         <b-row>
           <b-col md="12">
@@ -98,7 +98,7 @@
       <b-container>
         <b-row>
           <b-col md="6">
-            <h2 class="logo">LEXTAX</h2>
+            <img src="/logo-white.png" class="logo" />
             <p>Jalan Wahid Hasyim No. 10D, Kel. Kebon Sirih, Kec. Menteng, Jakarta Pusat, 10340</p>
           </b-col>
           <b-col md="6">

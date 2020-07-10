@@ -7,16 +7,12 @@ header{
     padding: 5px 25px;
     background-color: $sec;
     .logo{
-        display: inline-block;
-        color: $pri;
-        font-size: 42px;
-        font-family: $b;
-        text-transform: lowercase;
-        margin: 0;
+        width: 145px;
+        margin: 5px 0;
     }
     .apply{
         float: right;
-        color: $pri;
+        color: $bl;
         margin-top: 8px;
         font-size: 18px;
         span{
@@ -28,7 +24,7 @@ header{
             height: 30px;
             border-radius: 50%;
             margin-right: 5px;
-            background-color: $pri;
+            background-color: darken($sec2, 10%);
             transition: all 0.3s ease;
             i{
                 color: $wt;

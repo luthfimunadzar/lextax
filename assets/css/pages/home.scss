@@ -20,7 +20,7 @@
     }
     .get-started{
         font-size: 26px;
-        color: $pri;
+        color: darken($sec2, 20%);
         position: relative;
         padding-right: 23px;
         font-weight: 500;
@@ -78,7 +78,7 @@
         padding-left: 60px;
         margin-bottom: 30px;
         span{
-            color: $pri;
+            color: darken($sec2, 20%);
             position: absolute;
             left: 0;
             top: 0;
@@ -111,7 +111,7 @@
             left: 0;
             h3{
                 font-size: 28px;
-                color: $pri;
+                color: darken($sec2, 25%);
                 position: relative;
                 z-index: 3;
                 font-weight: 700;
