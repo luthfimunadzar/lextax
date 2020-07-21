@@ -1,6 +1,6 @@
 footer{
     padding: 50px 0;
-    background-color: $pri;
+    background-color: #0ABBD6;
     .logo{
         width: 150px;
         margin-bottom: 10px;
@@ -18,7 +18,7 @@ footer{
         height: 35px;
         font-size: 20px;
         background-color: $sec;
-        color: $pri;
+        color: darken($sec2, 10%);
         margin-right: 15px;
         display: inline-flex;
         align-items: center;

@@ -2,15 +2,15 @@
   <div>
     <header>
       <img src="/logo-color.png" class="logo"/>
-      <b-link href="#" class="apply"><span><i class="fa fa-pen"></i></span> Apply</b-link>
+      <!-- <b-link href="#" class="apply"><span><i class="fa fa-pen"></i></span> Apply</b-link> -->
     </header>
 
     <div class="hero">
       <b-container>
         <b-row class="d-flex align-items-center">
           <b-col md="7">
-            <h2>We help businesses taxes adapt at speed</h2>
-            <p>A constantly evolving list of 100 company in indonesia, including an amnesty, monthly tax, and all other tax services.</p>
+            <h2>Lextax, for hassle-free tax compliance</h2>
+            <p>Forget about missing the deadlines, tax penalties/fines, or any confusing forms, easy step as ABC, and your tax* problem, solved better.</p>
             <b-link class="get-started" href="#" v-scroll-to="'#feature'">Get Started <i class="fa fa-long-arrow-alt-down"></i></b-link>
           </b-col>
           <b-col md="5">
@@ -26,68 +26,85 @@
       <b-container>
         <b-row>
           <b-col md="12">
-            <h3 class="title">Our Feature</h3>
+            <!-- <h3 class="title">Our Feature</h3> -->
+            <h3 class="title">Tailored for SMEs & Startup businesses needs</h3>
           </b-col>
           <b-col md="6">
             <div class="feature-item">
-              <span>01.</span>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+              <span class="number">01.</span>
+              <p class="pt-2">Affordable monthly subscriptions</p>
             </div>
             <div class="feature-item">
-              <span>02.</span>
-              <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+              <span class="number">02.</span>
+              <p><span class="bold">A STARTUP EXPERT</span><br/>was built from the ground up around the needs of founders & modern, agile businesses. </p>
+            </div>
+            <div class="feature-item">
+              <span class="number">03.</span>
+              <p>Our co-founder has committed to help navigate the tax compliance needs of young entrepreneurs. They also have the experienced as in support the widely known 1000 Startups movement and more impactful events supporting startup and SMEs ecosystem likewise.</p>
             </div>
           </b-col>
           <b-col md="6">
             <div class="feature-item">
-              <span>03.</span>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X.</p>
+              <span class="number">04.</span>
+              <p class="pt-2">Operate with latest SAAS product by our partner Fintax.id</p>
             </div>
             <div class="feature-item">
-              <span>04.</span>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+              <span class="number">05.</span>
+              <p>Our founders have involved in various tax litigation projects (including tax audit assistance, tax objection, tax appeal and tax reconsideration request), tax advisory works (in relation to the tax regulatory framework), tax due diligence, tax structuring, assurance support (assistance in financial audit process), tax compliance (both monthly and annual tax compliance projects) and assistance with tax amnesty program.</p>
             </div>
           </b-col>
         </b-row>
       </b-container>
     </div>
 
-    <div class="services">
+    <div class="how-we-help">
+      <b-container>
+        <b-row>
+          <b-col lg="8" offset-lg="2">
+            <div class="wrap-help">
+              <h3>How we help clients</h3>
+              <h4>Lextax will help you do the tax filing that includes PPh Pasal 21,23,26,4(2)</h4>
+
+              <p>SPT Bulanan PPh – Perusahaan dengan penghasilan kurang dari Rp 100 juta per bulan</p>
+
+              <div class="list"><span>-</span> Penyusunan SPT, pembuatan Kode Billing setoran, dan Submit SPT PPh Bulanan Pasal 21 atau 26</div>
+
+              <div class="list"><span>-</span> Penyusunan SPT, pembuatan Kode Billing setoran, dan Submit SPT PPh Bulanan Pasal 23 atau 26</div>
+
+              <div class="list"><span>-</span> Kode Billing PPh Bulanan PPh Pasal 25 atau Pasal 4 ayat 2 / PP 46</div>
+
+              <p>
+                SPT Bulanan PPh<br/>
+                Laporan ini berupa pemenuhan kewajiban pemotongan dan pembayaran PPh Pasal 21,23,26,4(2) atas pengeluaran/pembayaran dari perusahaan kepada pihak lain (misalnya pembayaran gaji, jasa, sewa) dalam periode bulanan
+              </p>
+
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+
+    <div class="price">
       <b-container>
         <b-row>
           <b-col md="12">
-            <h3 class="title">Our Services</h3>
+            <h3 class="title text-center">Lextax does package to ease you</h3>
           </b-col>
-          <b-col md="8">
-            <div class="service-item" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')">
-              <div class="wrap-text">
-                <h3>Tax Amnesty</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-              </div>
+          <b-col md="12" class="text-center">
+            <div class="price-wrap">
+              <img src="/briefcase.png" alt="">
+              <h3>Package A</h3>
+              <p>Rp. 1.200.000 -> Rp. 1.000.000</p>
+              <p>Transaction + Employee up to 100 (combine)</p>
+              <p>Additional: 10rb/transaction (or bundling by request)</p>
             </div>
-          </b-col>
-          <b-col md="4">
-            <div class="service-item" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')">
-              <div class="wrap-text">
-                <h3>Tax Amnesty</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-              </div>
-            </div>
-          </b-col>
-          <b-col md="4">
-            <div class="service-item" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')">
-              <div class="wrap-text">
-                <h3>Tax Amnesty</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-              </div>
-            </div>
-          </b-col>
-          <b-col md="8">
-            <div class="service-item" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')">
-              <div class="wrap-text">
-                <h3>Tax Amnesty</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-              </div>
+            <div class="price-wrap">
+              <img src="/box.png" alt="">
+              <h3>Package B</h3>
+
+              <p>Rp. 600.000 -> Rp. 500.000</p>
+              <p>Transaction + Employee up to 50 (combine)</p>
+              <p>Additional: 10rb/transaction (normal price)</p>
             </div>
           </b-col>
         </b-row>

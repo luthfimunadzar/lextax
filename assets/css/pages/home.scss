@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
-    background-color: $sec;
+    background-color: #ECFCFE;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@
     }
     .get-started{
         font-size: 26px;
-        color: darken($sec2, 20%);
+        color: $thi;
         position: relative;
         padding-right: 23px;
         font-weight: 500;
@@ -72,13 +72,12 @@
 
 .feature{
     padding: 80px 0;
-    background-color: $ter;
     .feature-item{
         position: relative;
         padding-left: 60px;
         margin-bottom: 30px;
-        span{
-            color: darken($sec2, 20%);
+        span.number{
+            color: $thi;
             position: absolute;
             left: 0;
             top: 0;
@@ -88,12 +87,51 @@
             line-height: 1.7;
             font-size: 16px;
             padding-top: 5px;
+            .bold{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.how-we-help{
+    padding: 50px 0;
+    background-color: #ECFCFE;
+    .wrap-help{
+        box-shadow: 0px 6px 12px rgba($color: $sec2, $alpha: 0.2);
+        background-color: $wt;
+        padding: 40px 30px;
+        h3{
+            font-weight: bold;
+            font-size: 36px;
+            margin-bottom: 35px;
+        }
+        h4{
+            font-weight: bold;
+            font-weight: 24px;
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+        p{
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        .list{
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 20px;
+            span{
+                position: absolute;
+                top: 0px;
+                left: 0;
+            }
         }
     }
 }
 
 .services{
     padding: 80px 0;
+    background-color: #ECFCFE;
     .service-item{
         width: 100%;
         height: 300px;
@@ -120,6 +158,32 @@
                 font-size: 13px;
                 margin-bottom: 0px;
             }
+        }
+    }
+}
+
+.price{
+    padding: 80px 0;
+    .price-wrap{
+        width: 320px;
+        border: 2px solid $sec2;
+        margin: 0 15px;
+        padding: 20px 30px;
+        display: inline-block;
+        vertical-align: middle;
+        h3{
+            font-size: 26px;
+            font-weight: bold;
+            padding-bottom: 25px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid $sec2;
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: left;
         }
     }
 }
